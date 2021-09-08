@@ -4,9 +4,8 @@ using System.Text;
 
 namespace Domain
 {
-    public class Transaction
+    public class Transaction : DomainObject
     {
-        public int Id { get; set; }
         public int Amount { get; set; }
         public Account Sender { get; set; }
         public Account Receiver { get; set; }

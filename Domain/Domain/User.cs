@@ -2,7 +2,7 @@
 
 namespace Domain
 {
-    public class User
+    public class User : DomainObject
     {
         public string First_Name { get; set; }
         public string Last_Name { get; set; }

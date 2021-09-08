@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Domain
 {
-    public class Account
+    public class Account : DomainObject
     {
         public string Account_Number { get; set; }
         public int Balance { get; set; }
